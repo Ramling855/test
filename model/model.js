@@ -17,6 +17,15 @@ const Model=new mongoose.Schema({
     },
     photo:{
         type:String,
+    },
+    job:{
+        type:String,
+    },
+    salary:{
+        type:String,
+    },
+    location:{
+        type:String,
     }
 })
 const mode= mongoose.model("form",Model)
